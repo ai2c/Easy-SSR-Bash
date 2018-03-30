@@ -1,4 +1,4 @@
-# Easy-SSR-Bash-Python-The-Final
+# Easy-SSR-Bash
 一个ShadowsocksR多用户管理Shell脚本（基于官方mujson版本），集成SSR多用户管理，流量限制，加密更改等基本操作。是一个基于ShadowsocksR官方的mujson的辅助脚本。方便用户操作。
 
 
@@ -23,16 +23,17 @@
 
 ## 缺点 ##
 
- - 无法删除最后一名用户（官方限制）
+ - 无法删除最后一名用户
+ - 无法通过web创建用户
 
 ## 安装 ##
 ###CentOS系列
 
-    yum update -y && yum install unzip zip -y && yum install wget -y && wget -N --no-check-certificate https://raw.githubusercontent.com/ai2c/Easy-SSR-Bash-Python-The-Final/master/ssr.zip && unzip ssr.zip && cd SSR* && bash install.sh
+    yum update -y && yum install unzip zip -y && yum install wget -y && wget -N --no-check-certificate https://raw.githubusercontent.com/ai2c/Easy-SSR-Bash/master/ssr.zip && unzip ssr.zip && cd SSR* && bash install.sh
 
 ###Debian/Ubuntu系列
 
-    apt-get update -y && apt-get install unzip zip -y && apt-get install wget -y && wget -N --no-check-certificate https://raw.githubusercontent.com/ai2c/Easy-SSR-Bash-Python-The-Final/master/ssr.zip && unzip ssr.zip && cd SSR* && bash install.sh
+    apt-get update -y && apt-get install unzip zip -y && apt-get install wget -y && wget -N --no-check-certificate https://raw.githubusercontent.com/ai2c/Easy-SSR-Bash/master/ssr.zip && unzip ssr.zip && cd SSR* && bash install.sh
 
 ## 卸载 ##
 
